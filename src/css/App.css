@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: mediumturquoise;
+  border-radius: 10px;
+}
+
+.addtodo-container{
+  padding: 20px;
+}
+
+.addtodo-container input{
+  margin: 0 10px 0 0;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+}
+
+.addtodo-container button{
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color:rgb(141, 154, 230);
+}
+
+.addtodo-container button:hover{
+  background-color:rgb(98, 119, 240);
+
+}
+

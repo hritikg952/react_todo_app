@@ -1,0 +1,36 @@
+.list {
+  list-style: none;
+  display: flex;
+  background-color: palevioletred;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid rgb(141, 154, 230);
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 70%;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.list button{
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    color: aliceblue;
+    background-color: rgb(141, 154, 230);
+}
+
+.list button:hover{
+    background-color: rgb(103, 123, 235);
+
+}
+.completed {
+  background-color: palegreen;
+}
+
+.not-completed {
+  background-color: palevioletred;
+}
